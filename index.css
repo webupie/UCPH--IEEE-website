@@ -1,0 +1,139 @@
+/*.text-important{
+  color: #15A2CB !important
+}*/
+
+.nav-link.active{
+  color: #15A2CB !important
+}
+#header img {
+  width: 200px;
+}
+body{
+  background-color: white;
+}
+#main .carousel-item  img{
+  max-height: 76vh;
+  opacity:.85;
+}
+#carouselExampleFade{
+  position: relative;
+}
+#carouselExampleFade .overlay{
+  z-index: 2;
+  position:absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+
+}
+#carouselExampleFade .overlay .container,
+#carouselExampleFade .overlay .row{
+  height: 100%;
+}
+#carouselExampleFade .overlay #novedad{
+  border: none;
+  opacity: 0.6;
+}
+#carouselExampleFade .overlay #novedad:hover{
+  background-color: #1E87A5  ;
+  border: none;
+
+}
+#footer{
+  background-color: #212549;
+
+}
+#footer .col{
+display: flex;
+text-align: center;
+}
+
+#footer img{
+
+  position: relative;
+  min-height: 43px;
+  max-height: 33%;
+  width: 40px;
+
+}
+#footer #foot {
+
+  color: white;
+  text-shadow: -1.5px -1.5px 0 #065268;
+  border:0.1px solid rgba(0, 0, 0, 0.5);
+}
+#footer #foot p {
+  position: relative;
+  margin:auto;
+  padding:0;
+}
+#tit{
+  text-decoration: underline;
+  text-align: center;
+
+}
+#main3 {
+  min-height: 76vh;
+  background: #cf1c43;
+}
+#main3 h3{
+  text-align: center;
+  background-color: #007BFF;
+  color: white;
+  text-decoration: underline white;
+}
+#scrollspy1{
+  position: relative;
+  max-height: 60vh;
+  overflow-y: scroll;
+  border-right: none;
+  background: #08092A ;
+  border-radius: 3px;
+}
+
+#scrollspy1 img{
+  width: 40vh;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#text{
+  text-align: justify;
+  color:black;
+  border-radius: 4px;
+  padding: 10px;
+  border: white 1px solid;
+}
+#main3open{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: #065268 solid 5px;
+}
+#main3open img{
+  padding: 5px;
+  height: 50%;
+  width: 50%;
+}
+.jumbotron {
+  margin: 0;
+}
+
+#arduino{
+  background-color:rgb(255,255,0,0.2);
+}
+#a1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.img-fluid{
+  width: 30%;
+  border: black solid 4px;
+
+}
